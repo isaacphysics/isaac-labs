@@ -1,0 +1,5 @@
+---
+layout: notfound
+title: 404
+---
+<a href="/">Click here to return to the home page</a>
