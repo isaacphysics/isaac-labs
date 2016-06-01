@@ -21,9 +21,9 @@ We use <a href="http://www.sympy.org/en/index.html" target="_blank">SymPy</a> to
 
 Actually, as a fun aside, SymPy didn’t match the complicated entry in the image to the expected answer of $\frac{F}{m}$: it says they’re not equal. Not because it couldn’t check it, it turns out - but because it assumes everything is a complex number and so $\sqrt{x^{2}} \neq x$. This highlights another issue: Does SymPy say two expressions aren’t equal because they really aren’t equal – or because it can’t simplify them well enough? So I added code to sample the functions at random points of their inputs<a href="#footnote1"><sup id="reference1">[1]</sup></a> and see if the results matched up to within a very small numerical error. It won’t be right every time; but it will flag up possible matches for a human to review.
 
-We then built into the system a way to check syntactic equality too. This turns out to be really useful when we want to make sure someone has factorised an expression – the factorised *correct* answer is  semantically equal to the *wrong* non-factorised answer! Computers don’t yet understand these subtleties.
+We then built into the system a way to check syntactic equality too. This turns out to be really useful when we want to make sure someone has factorised an expression – the factorised *correct* answer is (semantically) equal to the *wrong* non-factorised answer! Computers don’t yet understand these subtleties.
 
-It’s being slowly rolled out; there are some <a href="https://isaacphysics.org/pages/eqn_editor_beta" target="_blank">beta questions which use checker</a>, and we hope for lots more questions on Isaac to use it soon enough!
+It’s being slowly rolled out: there are some <a href="https://isaacphysics.org/pages/eqn_editor_beta" target="_blank">beta questions which use the checker</a>, and we hope for lots more questions on Isaac to use it soon enough!
 
 ---
 

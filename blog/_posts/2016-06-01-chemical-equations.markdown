@@ -47,6 +47,7 @@ $$\ce{3CH3(CH2)2OH(l) + Cr2O7^{2-}(aq) + 8H^{+} -> 3CH3CH2CHO(l) + 2Cr^{3+}(aq) 
 	<input name="test" type="text" value="2H2 + O2 -> 2H2O">
 	<input type="submit">
 </form>
+Right now what you get back is a JSON object containing useful information about the expression or equation:
 <iframe name="result-frame" style="height:15em;"> </iframe>
 ---
 Nuclear equations are more complicated: $\ce{_{92}^{238}U}$ isn’t straightforward to type and there are lots of ways to write beta decay and notations for beta particles. Watch this space!
