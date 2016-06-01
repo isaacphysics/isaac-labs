@@ -38,8 +38,8 @@ twitter_username: IsaacPhysics
 #github_username: yourgithub
 facebook_id: IsaacPhysicsUK
 
-favicon: true
-favicon_location: "/images/favicon.ico"
+# favicon: true
+# favicon_location: "/images/favicon.ico"
 
 profile_picture: /images/isaac-logo.png
 paginate: 5

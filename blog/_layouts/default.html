@@ -24,10 +24,15 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300,500,700|Ubuntu:400,300,300italic,500,700|Montserrat' rel='stylesheet' type='text/css'>
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-    {% if site.favicon %}
-        <link rel="icon" type="image/ico" href="{{ site.favicon_location }}">
-        <link rel="shortcut-icon" type="image/ico" href="{{ site.favicon_location }}">
-    {% endif %}
+
+    <!-- Favicons copied from Isaac's main site -->
+    <link rel="icon" href="/images/favicon/isaac-favicon-196x196.png" sizes="196x196">
+    <link rel="icon" href="/images/favicon/isaac-favicon-96x96.png"   sizes="96x96">
+    <link rel="icon" href="/images/favicon/isaac-favicon-32x32.png"   sizes="32x32">
+    <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon-180x180.png" sizes="180x180">
+    <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon-76x76.png"   sizes="76x76">
+    <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon-precomposed.png">
+
     {% if site.twitter_username %}
         <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
     {% endif %}
