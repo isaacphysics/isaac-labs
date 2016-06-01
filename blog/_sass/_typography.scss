@@ -16,7 +16,8 @@
         margin: 1em 0;
     }
     code {
-        font-size: $base-font-size;
+        font-size: 1.1rem;
+        background-color: #eeeeee;
     }
     .post-title {
         margin-top: 0.1em;
@@ -47,6 +48,7 @@
         font-size: 19px;
         margin: $base-spacing/3 0;
         font-weight: lighter;
+        text-align: justify;
     }
     a {
         text-decoration: none;
