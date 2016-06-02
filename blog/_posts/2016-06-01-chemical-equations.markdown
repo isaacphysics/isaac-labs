@@ -35,11 +35,11 @@ This complicated looking redox reaction demonstrates all of the syntax required 
 
 So
 
-<code style="font-size: 1rem;display:block;text-align:center;">3CH3(CH2)2OH(l) + Cr2O7^{2-}(aq) + 8H^{+} -> 3CH3CH2CHO(l) + 2Cr^{3+}(aq) + 7H2O(g)</code>
+<code style="font-size:0.95rem;display:block;text-align:center;padding:5px;">3CH3(CH2)2OH(l) + Cr2O7^{2-}(aq) + 8H^{+}(aq) -> 3CH3CH2CHO(l) + 2Cr^{3+}(aq) + 7H2O(g)</code>
 
 becomes
 
-$$\ce{3CH3(CH2)2OH(l) + Cr2O7^{2-}(aq) + 8H^{+} -> 3CH3CH2CHO(l) + 2Cr^{3+}(aq) + 7H2O(g)}$$
+<p style="font-size:0.95rem;">$$\ce{3CH3(CH2)2OH(l) + Cr2O7^{2-}(aq) + 8H^{+}(aq) -> 3CH3CH2CHO(l) + 2Cr^{3+}(aq) + 7H2O(g)}$$</p>
 
 ---
 **Try it here**:

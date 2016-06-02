@@ -7,7 +7,7 @@
 <polygon fill="none" stroke="#bb2828" stroke-width="2" points="1212.94,-1062.4 1212.94,-1193.6 1987.06,-1193.6 1987.06,-1062.4 1212.94,-1062.4"></polygon>
 <text text-anchor="middle" x="1600" y="-1177" font-family="Times,serif" font-size="14.00"><tspan style="font-weight:bold">Equation</tspan></text>
 <polyline fill="none" stroke="#bb2828" stroke-width="2" points="1212.94,-1168.8 1987.06,-1168.8 "></polyline>
-<text text-anchor="middle" x="1600" y="-1136.2" font-family="Times,serif" font-size="14.00">3CH<tspan style="font-size:52%;baseline-shift:sub">3</tspan>(CH<tspan style="font-size:52%;baseline-shift:sub">2</tspan>)<tspan style="font-size:52%;baseline-shift:sub">2</tspan>OH(l) + Cr<tspan style="font-size:52%;baseline-shift:sub">2</tspan>O<tspan style="font-size:52%;baseline-shift:sub">7</tspan><tspan style="font-size:52%;baseline-shift:super">2-</tspan>(aq) + 8H<tspan style="font-size:52%;baseline-shift:super">+</tspan> → 3CH<tspan style="font-size:52%;baseline-shift:sub">3</tspan>CH<tspan style="font-size:52%;baseline-shift:sub">2</tspan>CHO(l) + 2Cr<tspan style="font-size:52%;baseline-shift:super">3+</tspan>(aq) + 7H<tspan style="font-size:52%;baseline-shift:sub">2</tspan>O(g)</text>
+<text text-anchor="middle" x="1600" y="-1136.2" font-family="Times,serif" font-size="14.00">3CH<tspan style="font-size:52%;baseline-shift:sub">3</tspan>(CH<tspan style="font-size:52%;baseline-shift:sub">2</tspan>)<tspan style="font-size:52%;baseline-shift:sub">2</tspan>OH(l) + Cr<tspan style="font-size:52%;baseline-shift:sub">2</tspan>O<tspan style="font-size:52%;baseline-shift:sub">7</tspan><tspan style="font-size:52%;baseline-shift:super">2-</tspan>(aq) + 8H<tspan style="font-size:52%;baseline-shift:super">+</tspan>(aq) → 3CH<tspan style="font-size:52%;baseline-shift:sub">3</tspan>CH<tspan style="font-size:52%;baseline-shift:sub">2</tspan>CHO(l) + 2Cr<tspan style="font-size:52%;baseline-shift:super">3+</tspan>(aq) + 7H<tspan style="font-size:52%;baseline-shift:sub">2</tspan>O(g)</text>
 <polyline fill="none" stroke="#bb2828" stroke-width="2" points="1212.94,-1112 1987.06,-1112 "></polyline>
 <text text-anchor="middle" x="1600" y="-1095.4" font-family="Times,serif" font-size="14.00"><tspan style="font-style:italic">left</tspan></text>
 <polyline fill="none" stroke="#bb2828" stroke-width="2" points="1212.94,-1087.2 1987.06,-1087.2 "></polyline>
@@ -18,7 +18,7 @@
 <polygon fill="none" stroke="#fea100" stroke-width="2" points="884.638,-918.8 884.638,-1025.2 1305.36,-1025.2 1305.36,-918.8 884.638,-918.8"></polygon>
 <text text-anchor="middle" x="1095" y="-1008.6" font-family="Times,serif" font-size="14.00"><tspan style="font-weight:bold">Expression</tspan></text>
 <polyline fill="none" stroke="#fea100" stroke-width="2" points="884.638,-1000.4 1305.36,-1000.4 "></polyline>
-<text text-anchor="middle" x="1095" y="-967.8" font-family="Times,serif" font-size="14.00">3CH<tspan style="font-size:52%;baseline-shift:sub">3</tspan>(CH<tspan style="font-size:52%;baseline-shift:sub">2</tspan>)<tspan style="font-size:52%;baseline-shift:sub">2</tspan>OH(l) + Cr<tspan style="font-size:52%;baseline-shift:sub">2</tspan>O<tspan style="font-size:52%;baseline-shift:sub">7</tspan><tspan style="font-size:52%;baseline-shift:super">2-</tspan>(aq) + 8H<tspan style="font-size:52%;baseline-shift:super">+</tspan></text>
+<text text-anchor="middle" x="1095" y="-967.8" font-family="Times,serif" font-size="14.00">3CH<tspan style="font-size:52%;baseline-shift:sub">3</tspan>(CH<tspan style="font-size:52%;baseline-shift:sub">2</tspan>)<tspan style="font-size:52%;baseline-shift:sub">2</tspan>OH(l) + Cr<tspan style="font-size:52%;baseline-shift:sub">2</tspan>O<tspan style="font-size:52%;baseline-shift:sub">7</tspan><tspan style="font-size:52%;baseline-shift:super">2-</tspan>(aq) + 8H<tspan style="font-size:52%;baseline-shift:super">+</tspan>(aq)</text>
 <polyline fill="none" stroke="#fea100" stroke-width="2" points="884.638,-943.6 1305.36,-943.6 "></polyline>
 <text text-anchor="middle" x="1095" y="-927" font-family="Times,serif" font-size="14.00"><tspan style="font-style:italic">terms</tspan></text>
 </g>
@@ -82,11 +82,11 @@
 <polygon fill="none" stroke="#49902a" stroke-width="2" points="1134.87,-725 1134.87,-881 1253.13,-881 1253.13,-725 1134.87,-725"></polygon>
 <text text-anchor="middle" x="1194" y="-864.4" font-family="Times,serif" font-size="14.00"><tspan style="font-weight:bold">Term</tspan></text>
 <polyline fill="none" stroke="#49902a" stroke-width="2" points="1134.87,-856.2 1253.13,-856.2 "></polyline>
-<text text-anchor="middle" x="1194" y="-823.6" font-family="Times,serif" font-size="14.00">8H<tspan style="font-size:52%;baseline-shift:super">+</tspan></text>
+<text text-anchor="middle" x="1194" y="-823.6" font-family="Times,serif" font-size="14.00">8H<tspan style="font-size:52%;baseline-shift:super">+</tspan>(aq)</text>
 <polyline fill="none" stroke="#49902a" stroke-width="2" points="1134.87,-799.4 1253.13,-799.4 "></polyline>
 <text text-anchor="middle" x="1194" y="-782.8" font-family="Times,serif" font-size="14.00"><tspan style="font-style:italic">number</tspan>: 8</text>
 <polyline fill="none" stroke="#49902a" stroke-width="2" points="1134.87,-774.6 1253.13,-774.6 "></polyline>
-<text text-anchor="middle" x="1194" y="-758" font-family="Times,serif" font-size="14.00"><tspan style="font-style:italic">state</tspan>: none</text>
+<text text-anchor="middle" x="1194" y="-758" font-family="Times,serif" font-size="14.00"><tspan style="font-style:italic">state</tspan>: aq</text>
 <polyline fill="none" stroke="#49902a" stroke-width="2" points="1134.87,-749.8 1253.13,-749.8 "></polyline>
 <text text-anchor="middle" x="1194" y="-733.2" font-family="Times,serif" font-size="14.00"><tspan style="font-style:italic">molecule</tspan></text>
 </g>
