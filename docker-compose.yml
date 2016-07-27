@@ -11,14 +11,6 @@ services:
       default:
         aliases:
           - labs
-  chemistry-checker:
-    container_name: labs-chemistry-checker
-    image: ucamcldtg/chemistry-checker
-    restart: always
-    networks:
-      default:
-        aliases:
-          - labs-chemistry-checker
 networks:
   default:
     external:
