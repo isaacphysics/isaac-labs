@@ -42,7 +42,7 @@ becomes
 
 ---
 **Try it here**:
-<form action="/container/chemistry-checker/parse_form" method="post" target="result-frame" style="margin-bottom:5px;">
+<form action="/chemistry/parse" method="post" target="result-frame" style="margin-bottom:5px;">
   <input name="description" type="text" style="display:none;" value="labs.isaacphysics.org">
 	<input name="test" type="text" value="2H2 + O2 -> 2H2O">
 	<input type="submit">
