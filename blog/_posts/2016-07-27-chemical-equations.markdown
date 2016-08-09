@@ -7,7 +7,7 @@ author_site: https://isaacphysics.org/about
 ---
 Whilst adding the Thermodynamics questions to the site we ran into an issue: how do we mark non-mathematical equations? There are questions in the <a href="https://isaacphysics.org/book" target="_blank">Mastering Physics book</a> which require nuclear equations as answers, too. We currently have 3 main types of question on Isaac Physics, alongside one experimental one. Quick questions are simple show/hide boxes, designed to make students think but allowing us to tell them the answer. Multiple choice questions and numeric questions are pretty straightforward too (except for significant figures).
 
-We have some new questions that can have answers provided in symbolic form; these are currently checked using <a href="http://www.sympy.org/en/index.html" target="_blank">SymPy</a>, a specialised Python library designed for symbolic computation. However SymPy isn’t designed to support chemistry, or the nuclear physics we need. We want to be able to give a student feedback when they type an equation with a mistake in it:
+We have some new questions that can have answers provided in symbolic form; these are currently checked using <a href="http://www.sympy.org/en/index.html" target="_blank">SymPy</a>, a specialised Python library designed for symbolic computation (see <a href="/marking-maths-part-2.html">our post here</a> for more details). However SymPy isn’t designed to support chemistry, or the nuclear physics we need. We want to be able to give a student feedback when they type an equation with a mistake in it:
 
 <table>
   <tr>
@@ -29,6 +29,8 @@ So we built a parser, a program that takes a chemical equation in text form and 
 For those who’ve met LaTeX, it uses much the same syntax as the mhchem package does; but for the rest of us, it’s usually what you expect. So `NH3` becomes $\ce{NH3}$ easily enough, and `CH4 + 2O2 -> 2H2O + CO2` is understood to be the equation above too. The parser can be tried out in the demo at the bottom, but we hope to have a graphical user interface for it before we get students to use it to answer questions.
 
 It can’t balance equations all on its own (there are plenty of sites that will do that already, like <a href="https://www.wolframalpha.com/" target="_blank">Wolfram\|Alpha</a> or <a href="http://cs.mcgill.ca/~npaun/projects/chemlogic" target="_blank">Chemlogic</a>), but it can compare expressions to the answers expected and it can also check if the atoms and charges balance in an equation. It still treats charges relatively naively though: it has no idea what ionic bonding is right now, for instance. It works for what we need it to – and we’ll be refining it as we go.
+
+<br>
 
 This complicated looking redox reaction demonstrates all of the syntax required to try it out below (there’s even a representation of the tree this equation gets turned into <a href="/images/complex_syntax_tree.svg" target="_blank">here</a>)!
 
