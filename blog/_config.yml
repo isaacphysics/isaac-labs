@@ -47,8 +47,8 @@ paginate_path: "/page/:num"
 tracking_id: UA-51129534-4 # GA Tracking ID
 
 # Social Stuff | open graph and twitter cards
-og_image: "/images/accent.png" # This will show in facebook thumbnails
-twitter_image: "http://ankitsultana.me/images/accent.png?1234" # This will show in twitter cards
+og_image: "/images/isaac-logo@2x.png" # This will show in facebook thumbnails
+twitter_image: "https://labs.isaacphysics.org/images/isaac-logo.png" # This will show in twitter cards
 
 ####################################
 ####################################
