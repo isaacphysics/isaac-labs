@@ -4,7 +4,6 @@ author: Andrea Franceschini
 profile_picture: https://isaacphysics.org/api/any/api/images/content/general_pages/about_us/photos/af2.png
 about_stub: Andrea is a computer scientist on the Isaac Physics project, interested in human-computer interaction, education, and art.
 author_site: https://isaacphysics.org/about
-draft: true
 ---
 Our [previous formulae editor]({% post_url 2016-04-20-marking-equations %}) was working, but sometimes a bit hard to use. Users could position symbols on the canvas freely, and that resulted in certain edge cases that were much more ambiguous than we expected. Being able to freely build formulae is nice, but being able to do so with limited headaches is much nicer, so we took a step back and realised that we were giving users too much freedom.
 
