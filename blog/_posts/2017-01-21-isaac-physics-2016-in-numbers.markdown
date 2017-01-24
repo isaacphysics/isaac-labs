@@ -44,6 +44,7 @@ We can also look at how many of our students were active in answering questions 
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
 	<img src="/images/twenty-sixteen/active-users-2016.png" alt="A chart of active users per month!">
+	<figcaption>The number of question attempts drops before December, but the number of users making those attempts doesn't. Does this show students getting better at answering our questions? Are they mastering significant figures? Or are they just getting less productive as Christmas draws near?</figcaption>
 </figure>
 
 One last chart, showing lots of homework set by our teachers - working hard year round:
