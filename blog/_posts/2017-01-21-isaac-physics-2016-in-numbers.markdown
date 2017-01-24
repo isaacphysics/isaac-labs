@@ -47,7 +47,7 @@ We can also look at how many of our students were active in answering questions 
 	<figcaption>The number of question attempts drops before December, but the number of users making those attempts doesn't. Does this show students getting better at answering our questions? Are they mastering significant figures? Or are they just getting less productive as Christmas draws near?</figcaption>
 </figure>
 
-One last chart, showing lots of homework set by our teachers - working hard year round:
+One last chart, showing lots of homework set by our teachers; hard at work even through their summer holidays:
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
 	<img src="/images/twenty-sixteen/assignments-set-2016.png" alt="A chart of assignments set per month. More than 200 assignments were set in August; teachers don't get holidays!">
