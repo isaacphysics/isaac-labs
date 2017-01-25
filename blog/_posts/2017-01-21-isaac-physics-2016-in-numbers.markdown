@@ -32,6 +32,12 @@ Isaac went from strength to strength in 2016; we had nearly 30,000 users sign up
     <tr>
     	<td style="text-align: right; font-family: monospace; font-size: 1.2rem;">3,900</td><td>Groups created</td>
   	</tr>
+    <tr>
+    	<td style="text-align: right; font-family: monospace; font-size: 1.2rem;">2,000</td><td>Students attended workshops</td>
+  	</tr>
+    <tr>
+    	<td style="text-align: right; font-family: monospace; font-size: 1.2rem;">110</td><td>Isaac student workshops</td>
+  	</tr>
 </table>
 
 The new academic year starting in September led to a lot of questions being answered, though it fell off towards Christmas:
