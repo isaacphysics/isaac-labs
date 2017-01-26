@@ -60,3 +60,7 @@ One last chart, showing lots of homework set by our teachers; hard at work even 
 </figure>
 
 Let's see what 2017 brings!
+
+---
+
+<p style="font-size:0.7rem;">The charts were created using Python's <a href="http://matplotlib.org/" target="_blank" rel="nofollow">Matplotlib</a> and its neat <a href="http://matplotlib.org/xkcd/examples/showcase/xkcd.html" target="_blank" rel="nofollow">XKCD-esque</a> style settings!</p>
