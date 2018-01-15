@@ -1,5 +1,6 @@
 ---
 title: Isaac Physics&#58; 2017 in Numbers
+description: We crunched the numbers for 2017 on Isaac Physics!
 author: James Sharkey
 profile_picture: https://isaacphysics.org/api/any/api/images/content/general_pages/about_us/photos/js.png
 about_stub: James is a physicist turned computer scientist, working both on the physics and computing for Isaac

@@ -6,6 +6,8 @@ services:
     volumes:
       - ./blog:/srv/jekyll:rw
     command: jekyll server
+    environment:
+       - JEKYLL_ENV=production
     restart: always
     networks:
       default:

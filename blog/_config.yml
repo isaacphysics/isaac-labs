@@ -1,7 +1,7 @@
 # User Settings | Edit there as per required
 
 title: Isaac Labs
-url: "https://labs.isaacphysics.org"
+url: https://labs.isaacphysics.org
 baseurl: ""
 
 email: contact@isaacphysics.org
@@ -49,6 +49,12 @@ tracking_id: UA-51129534-4 # GA Tracking ID
 # Social Stuff | open graph and twitter cards
 og_image: "/images/isaac-logo@2x.png" # This will show in facebook thumbnails
 twitter_image: "https://labs.isaacphysics.org/images/isaac-logo.png" # This will show in twitter cards
+
+# Summarise posts by first paragraph?
+excerpt_separator: "\n"
+
+# Timezone?
+timezone: Europe/London
 
 ####################################
 ####################################
