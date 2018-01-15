@@ -60,7 +60,7 @@ twitter_image: "https://labs.isaacphysics.org/images/isaac-logo.png" # This will
 
 markdown: kramdown
 
-gems:
+plugins:
     - jekyll-paginate
 
 sass:

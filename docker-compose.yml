@@ -2,10 +2,10 @@ version: '2'
 services:
   blog:
     container_name: labs-blog
-    image: jekyll/jekyll:3.1.2
+    image: jekyll/jekyll:3.6.2
     volumes:
       - ./blog:/srv/jekyll:rw
-    command: sudo jekyll server
+    command: jekyll server
     restart: always
     networks:
       default:
