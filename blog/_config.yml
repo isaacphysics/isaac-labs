@@ -51,7 +51,7 @@ og_image: "/images/isaac-logo@2x.png" # This will show in facebook thumbnails
 twitter_image: "https://labs.isaacphysics.org/images/isaac-logo.png" # This will show in twitter cards
 
 # Summarise posts by first paragraph?
-excerpt_separator: "\n"
+#excerpt_separator: "\n"
 
 # Timezone?
 timezone: Europe/London
