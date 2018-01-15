@@ -31,9 +31,6 @@ We had nearly 60,000 more users sign up, and saw more than 3.4 million question 
         <td style="text-align: right; font-family: monospace; font-size: 1.2rem;">28,800</td><td>Assignments set</td>
     </tr>
     <tr>
-        <td style="text-align: right; font-family: monospace; font-size: 1.2rem;">18,550</td><td>Changes to question and concept pages</td>
-    </tr>
-    <tr>
         <td style="text-align: right; font-family: monospace; font-size: 1.2rem;">13,250</td><td>Password resets sent</td>
     </tr>
     <tr>
