@@ -13,7 +13,7 @@ We provide maths output in three formats: LaTeX, which is how maths is rendered 
 
  - **LaTeX**: To use the maths LaTeX result, just copy and paste the output into a LaTeX document. You shouldn't need to use any packages, but may find `amsmath` useful. The chemistry result uses the `\ce{...}` command, which is provided by the `mhchem` package. Just add `\usepackage{mhchem}` to the preamble of your document and copy-paste away! (Technically speaking the chemistry result does not actually require the $-signs around it).
 
- - **Python**: This one probably isn't much use but can be used with the NumPy and SumPy libraries if you want.
+ - **Python**: This one isn't technically pure Python, but it's the format we use when we check answers. It's based on Python, and we parse it using Python to check student answers to symbolic questions.
 
  - **mhchem**: This is basically the same output as the LaTeX result, but can be copied and pasted directly into existing formulae without having to remove the LaTeX command too.
 
