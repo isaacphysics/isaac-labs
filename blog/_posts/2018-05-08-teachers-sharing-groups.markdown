@@ -18,7 +18,7 @@ Why has this been so tricky to implement? Our data sharing model puts students i
     <figcaption>We've updated the confirmation dialogue when you use a group code to list all teachers who can access that group's data. Teachers you have already shared data with are shown in green.</figcaption>
 </figure>
 
-When students use a group code, they'll now see a more detailed dialogue like the one above, showing all the teachers they will be granting access to. It also highlights those they are already sharing some data with - although it is still necessary to re-approve them to join another group.
+When students use a group code, they'll now see a more detailed dialogue like the one above, showing all the teachers they will be granting access to. It also highlights those they are already sharing some data with - although to join another group managed by someone you already share some data with still requires this additional confirmation too.
 
 Teachers will eventually be given a new option alongside the "Invite Users" option for groups they have created: "Edit Group Managers":
 <figure style="text-align:center;margin:15px auto 25px auto;width:90%;">
@@ -38,6 +38,6 @@ This can be remedied by asking all the students to re-enter the group code, whic
 
 Currently it's not possible to show only groups you own, or only assignments you have set to a group. We expect to find more improvements like these as we test things internally and hope that when we launch it as a beta feature we'll get further feedback too. We'll aim to improve things continually until we're happy it's ready for all teachers.
 
-Note that you won't need the beta feature enabled to be added as an additional manager; if you have a teacher account and you're added, you'll just receive an email to notify you.
+Note that you won't need the beta feature enabled to be added as an additional manager; if you have a teacher account and you're added, you'll just receive an email from Isaac to notify you.
 
 Keep an eye on our <a href="https://twitter.com/isaacphysics" target="_blank">Twitter</a> for updates on this feature, or <a href="https://isaacphysics.org/contact?subject=Multiple%20Teachers%20per%20Group" target="_blank">get in touch with any questions here</a>!
