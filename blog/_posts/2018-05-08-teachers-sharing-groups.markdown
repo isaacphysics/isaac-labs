@@ -15,10 +15,10 @@ Why has this been so tricky to implement? Our data sharing model puts students i
 
 <figure style="text-align:center;margin:15px auto 25px auto;width:90%;">
     <img src="/images/sharing-groups/auth-dialogue-box.png" alt="The new sharing confirmation dialogue box, listing the names and emails of all teachers who manage the group.">
-    <figcaption>We've updated the confirmation dialogue when you use a group code to list all teachers who can access that group's data. Teachers you have already shared data with are shown in green.</figcaption>
+    <figcaption>We've updated the confirmation dialogue when you use a group code to list all teachers who can access that group's data. Teachers you already share some data with are shown in green.</figcaption>
 </figure>
 
-When students use a group code, they'll now see a more detailed dialogue like the one above, showing all the teachers they will be granting access to. It also highlights those they are already sharing some data with - although to join another group managed by someone you already share some data with still requires this additional confirmation too.
+When students use a group code, they'll now see a more detailed dialogue like the one above, showing all the teachers they will be granting access to. It also highlights those they are already sharing some data with: to show that they have trusted that user before, or to help see which additional managers have been added since they last used the group code.
 
 Teachers will eventually be given a new option alongside the "Invite Users" option for groups they have created: "Edit Group Managers":
 <figure style="text-align:center;margin:15px auto 25px auto;width:90%;">
