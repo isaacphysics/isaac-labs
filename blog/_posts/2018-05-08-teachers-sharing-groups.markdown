@@ -20,13 +20,13 @@ Why has this been so tricky to implement? Our data sharing model puts students i
 
 When students use a group code, they'll now see a more detailed dialogue like the one above, showing all the teachers they will be granting access to. It also highlights those they are already sharing some data with: to show that they have trusted that user before, or to help see which additional managers have been added since they last used the group code.
 
-Teachers will eventually be given a new option alongside the "Invite Users" option for groups they have created: "Edit Group Managers":
+How do you use this new feature? Teachers will eventually be given a new option alongside the "Invite Users" option for groups they have created: "Edit Group Managers":
 <figure style="text-align:center;margin:15px auto 25px auto;width:90%;">
     <img src="/images/sharing-groups/add-managers-dialogue-box.png" alt="The new edit group manager interface, listing the names and emails of all teachers who manage the group.">
     <figcaption>Group owners will be able to add colleagues with teacher accounts to their groups.</figcaption>
 </figure>
 
-The additional managers may be colleagues who teach the same class, heads of department or even headteachers; the only conditions are that they have a teacher account on Isaac and the students approve access to them.
+The additional managers may be colleagues who teach the same class, heads of department or even headteachers; the only conditions are that they have a teacher account on Isaac and the students approve access to them. Students must approve access to _all_ of the additional managers and the owner of a group in order to join that group; only teachers that students could reasonably expect to have access to their data should be added.
 
 One issue we expect to see when adding group managers _after_ some students have joined the group is that these group managers will not be able to see some student progress.
 <figure style="text-align:center;margin:15px auto 25px auto;width:90%;">
@@ -38,6 +38,6 @@ This can be remedied by asking all the students to re-enter the group code, whic
 
 Currently it's not possible to show only groups you own, or only assignments you have set to a group. We expect to find more improvements like these as we test things internally and hope that when we launch it as a beta feature we'll get further feedback too. We'll aim to improve things continually until we're happy it's ready for all teachers.
 
-Note that you won't need the beta feature enabled to be added as an additional manager; if you have a teacher account and you're added, you'll just receive an email from Isaac to notify you.
+Note that you don't need the beta feature enabled to be added as an additional manager; if you have a teacher account and you're added, you'll just receive an email from Isaac to notify you.
 
 Keep an eye on our <a href="https://twitter.com/isaacphysics" target="_blank">Twitter</a> for updates on this feature, or <a href="https://isaacphysics.org/contact?subject=Multiple%20Teachers%20per%20Group" target="_blank">get in touch with any questions here</a>!
