@@ -5,7 +5,6 @@ author: James Sharkey
 profile_picture: https://isaacphysics.org/api/any/api/images/content/general_pages/about_us/photos/js.png
 about_stub: James is a physicist turned computer scientist, working both on physics and computing for Isaac
 author_site: https://isaacphysics.org/about
-draft: true
 ---
 One question we get asked fairly frequently by teachers is about sharing an Isaac group with their colleagues; until now, we've had to answer that it's not possible and offer some clunky workarounds. We're now internally testing the ability to add other teachers as additional managers for groups!
 
