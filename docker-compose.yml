@@ -2,7 +2,7 @@ version: '2'
 services:
   blog:
     container_name: labs-blog
-    image: jekyll/jekyll:3.6.2
+    image: jekyll/jekyll:3.8.2
     volumes:
       - ./blog:/srv/jekyll:rw
     command: jekyll server
