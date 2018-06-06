@@ -1,3 +1,0 @@
-#Usage: jekyll serve --force_polling
-
-docker run --rm --volume=/isaac-labs/blog:/srv/jekyll -it -p 0.0.0.0:4000:4000 jekyll/jekyll:3.6.2 jekyll "$@"
