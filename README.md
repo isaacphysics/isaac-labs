@@ -12,7 +12,7 @@ Your server should be running locally at `http://localhost:4000`.
 
 ### Adding Posts
 
-To add new posts to the blog, create a new file in the `_posts` directory with a filename matching the `YYYY-MM-DD-some-title.markdown`. The file should contain a YAML header describing the post, use an existing post as a template. If the post is not yet ready, you can add `draft: true` to this YAML section. Once saved, you'll find the new post at `http://localhost:4000/some-title.html`. Images should be added in the `images` directory, other configuration should not need to be modified.
+To add a new post to the blog, create a new file in the `_posts` directory with a filename matching the `YYYY-MM-DD-some-title.markdown`. The file should contain a YAML header describing the post, use an existing post as a template. If the post is not yet ready, you can add `draft: true` to this YAML section. Once saved, you'll find the new post at `http://localhost:4000/some-title.html`. Images should be added in the `images` directory, other configuration should not need to be modified.
 
 ### Production Use
 
