@@ -5,6 +5,7 @@ author: Ben Hanson
 profile_picture: https://isaacphysics.org/api/any/api/images/content/general_pages/about_us/photos/bh.png
 about_stub: Ben splits his time between the technical and content sides of Isaac, primarily a physicist working on the project's books.
 author_site: https://isaacphysics.org/about
+draft: true
 ---
 
 A valuable skill in physics is the ability to quickly sketch a function, to get an idea about how it behaves and any interesting features it may have. Doing this on a computer is a challenge we face, and providing automated feedback an even greater one!
