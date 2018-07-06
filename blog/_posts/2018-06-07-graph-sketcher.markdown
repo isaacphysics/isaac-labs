@@ -3,7 +3,7 @@ title: Graph Sketching
 description: Trialling a graph sketching tool.
 author: Ben Hanson
 profile_picture: https://isaacphysics.org/api/any/api/images/content/general_pages/about_us/photos/bh.png
-about_stub: Ben is a physicist working both on physics and computing for Isaac.
+about_stub: Ben splits his time between the technical and content sides of Isaac, primarily a physicist working on the project's books.
 author_site: https://isaacphysics.org/about
 ---
 
@@ -18,7 +18,7 @@ Our first attempt at a graph sketching tool allows users to draw functions freeh
     <figcaption>Users can draw multiple lines per solution, in different colours and specify straight or curved lines, allowing for more complex questions to be posed.</figcaption>
 </figure>
 
-The axes aren't measured, allowing users to focus on the shape of the curve and worrying more about the general scale than about going through exact points. Labels can be dragged and anchored to special points (turning/crossing points), hopefully of use for answers to certain questions.
+The axes aren't measured, allowing users to focus on the shape of the curve and think more about the general scale than about going through exact points. Labels can be dragged and anchored to special points (turning/crossing points), hopefully of use for answers to certain questions.
 
 <figure style="text-align:center;margin:15px auto 25px auto;width:90%;">
     <img src="/images/graph-sketcher/graph_sketcher.gif" alt="A gif showing how to simply draw and edit a curve">
