@@ -44,7 +44,7 @@ facebook_id: IsaacPhysicsUK
 profile_picture: /images/isaac-logo.png
 paginate: 5
 paginate_path: "/page/:num"
-tracking_id: UA-51129534-4 # GA Tracking ID
+tracking_id: UA-122616705-3 # GA Tracking ID
 
 # Social Stuff | open graph and twitter cards
 og_image: "/images/isaac-logo@2x.png" # This will show in facebook thumbnails
