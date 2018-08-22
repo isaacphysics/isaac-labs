@@ -1,6 +1,7 @@
 ---
 title: Text Entry for Symbolic Questions, done right
 description: Improving an old beta feature!
+keywords: formal grammar, mathematics, maths, parser, nearley, javascript
 author: Andrea Franceschini
 profile_picture: https://isaacphysics.org/api/any/api/images/content/general_pages/about_us/photos/af2.png
 about_stub: Andrea is a computer scientist on the Isaac Physics project, interested in human-computer interaction, education, and art.
