@@ -14,6 +14,9 @@ To fix that, and to provide a better experience, we developed a full text-based 
     <img src="/images/eqn-text-entry-grammar/text-entry.gif" alt="A symbolic question, showing the new text-entry box underneath.">
 </figure>
 
+---
+
+<b>For the enthusiasts:</b>
 So, how do we do it? To parse and interpret linear-text mathematical expressions, we use a "[formal grammar](https://en.wikipedia.org/wiki/Formal_grammar)", which is a set of rules that describe what a "[formal language](formal language theory)" looks like. Formal languages are as fascinating as they are outside the scope of this post but, just to give you an idea, computer programming languages, such as Python or JavaScript, are considered excellent examples of formal languages, because they are flexible and expressive, but follow very strict rules of syntax, that is, what words can go where and what certain sequences of words mean when they are placed where they are.
 
 A grammar takes the form of a series of "production rules", which are the rules that describe how to produce and interpret the "sentences" of a language. Imagine for example that you want to describe a language for screaming, where a scream is represented by the word `"argh"` with an arbitrary number of `"a"`s. A grammar to describe this "language" looks like this
@@ -31,7 +34,7 @@ We used a library called [nearley](https://nearley.js.org/) to "compile" the gra
 
 ---
 
-As we can see from this very simple example, writing formal grammars is not an easy endeavour. If you are curious to see what our maths grammar looks like, [head over here](https://github.com/ucam-cl-dtg/isaac-app/blob/eqn-text-entry-with-grammar/app/js/lib/equation_editor/grammar.ne), and bear in mind that the grammar that you see there not only recognises maths, but also translates it into the language of the graphical equation editor.
+As we can see from this very simple example, writing formal grammars is not an easy endeavour. If you are curious to see what a simple maths grammar looks like, [head over here](https://github.com/kach/nearley/blob/master/examples/calculator/arithmetic.ne), and bear in mind that [ours is even more complex](https://github.com/ucam-cl-dtg/isaac-app/blob/eqn-text-entry-with-grammar/app/js/lib/equation_editor/grammar.ne#L253) because it not only recognises maths, but also translates it into the language of the graphical equation editor.
 
 As always, we welcome feedback on both the equation editor and the new text entry feature: <a href="https://isaacphysics.org/contact?subject=Beta%20Feature%20Feedback" target="_blank">drop us a message here</a>!
 
