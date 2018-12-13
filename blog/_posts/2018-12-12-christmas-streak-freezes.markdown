@@ -12,9 +12,9 @@ Over a year ago now we added streaks to Isaac; a way of seeing how many days in 
 
 We've been testing the ability to freeze streaks, allowing a day or more of inactivity without the streak counter resetting - it just stays on the current number until the freeze runs out.
 
-**As a Christmas present from us, we'll freeze the streaks everyone with a streak of 7 days or more by the 20th December for the 24th-26th December inclusive**.
+**As a Christmas present from us, we'll freeze the streaks of everyone with a streak of 7 days or more by the 20th December for the 24th-26th December inclusive**.
 
-This will allow you to have Christmas Eve, Christmas Day and Boxing Day off from answering Isaac questions; a likely well-deserved rest!
+This will allow you to have Christmas Eve, Christmas Day and Boxing Day off from answering Isaac questions; a likely well-deserved rest! You'll need to answer questions as usual on the 27th to avoid losing your streak though!
 
 Of course, if you _really_ want to spend your Christmas answering questions we won't stop you; the streak freeze won't be needed for any days you do answer questions. You can also just have Christmas Day off, say, since freezes allow inactivity on any or all of the days.
 
