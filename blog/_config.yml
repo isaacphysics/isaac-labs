@@ -41,14 +41,14 @@ facebook_id: IsaacPhysicsUK
 # favicon: true
 # favicon_location: "/images/favicon.ico"
 
-profile_picture: /images/isaac-logo-christmas.png
+profile_picture: /images/isaac-logo.png
 paginate: 5
 paginate_path: "/page/:num"
 tracking_id: UA-122616705-3 # GA Tracking ID
 
 # Social Stuff | open graph and twitter cards
-og_image: "/images/isaac-logo-christmas@2x.png" # This will show in facebook thumbnails
-twitter_image: "https://labs.isaacphysics.org/images/isaac-logo-christmas.png" # This will show in twitter cards
+og_image: "/images/isaac-logo@2x.png" # This will show in facebook thumbnails
+twitter_image: "https://labs.isaacphysics.org/images/isaac-logo.png" # This will show in twitter cards
 
 # Summarise posts by first paragraph?
 #excerpt_separator: "\n"
