@@ -35,7 +35,7 @@ We used a library called [nearley](https://nearley.js.org/) to "compile" the gra
 
 ---
 
-As we can see from this very simple example, writing formal grammars is not an easy endeavour. If you are curious to see what a simple maths grammar looks like, [head over here](https://github.com/kach/nearley/blob/master/examples/calculator/arithmetic.ne), and bear in mind that [ours is even more complex](https://github.com/ucam-cl-dtg/isaac-app/blob/eqn-text-entry-with-grammar/app/js/lib/equation_editor/grammar.ne#L253) because it not only recognises maths, but also translates it into the language of the graphical equation editor.
+As we can see from this very simple example, writing formal grammars is not an easy endeavour. If you are curious to see what a simple maths grammar looks like, [head over here](https://github.com/kach/nearley/blob/master/examples/calculator/arithmetic.ne), and bear in mind that [ours is even more complex](https://github.com/isaacphysics/inequality-grammar/blob/master/assets/grammar.ne) because it not only recognises maths, but also translates it into the language of the graphical equation editor.
 
 As always, we welcome feedback on both the equation editor and the new text entry feature: <a href="https://isaacphysics.org/contact?subject=Beta%20Feature%20Feedback" target="_blank">drop us a message here</a>!
 
