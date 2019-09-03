@@ -9,7 +9,7 @@ author_site: https://isaacphysics.org/about
 One question we get asked fairly frequently by teachers is about sharing an Isaac group with their colleagues; until now, we've had to answer that it's not possible and offer some clunky workarounds. We're now internally testing the ability to add other teachers as additional managers for groups!
 
 This would allow those managers to see student progress on all assignments set to the group, set new assignments to the group themselves and invite additional students to the group just as group owners can. We'll hopefully launch it as an opt-in beta feature next month, and have it ready for all teachers in time for the next academic year!
-<br>[<b>Update June 2018:</b> If you have a teacher account, you <a href="https://isaacphysics.org/account#betafeatures" target="_blank">can now opt-in here</a>.]
+<br>[<b>Update August 2019:</b> This is now available to all teachers.]
 
 Why has this been so tricky to implement? Our data sharing model puts students in control of their data; they have to opt-in to sharing data with teachers explicitly, and can revoke this access at any time. It's this one-to-one student to teacher link, but many-to-one teacher to group link, that has made things complicated; but we think we've now got a system that works.
 
