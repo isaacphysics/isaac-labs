@@ -63,7 +63,7 @@
         <div class="main container" style="padding:0">
             <nav class="navbar" style="padding-top:0">
                 <a href="{{ site.baseurl }}/">
-                    <img src="{{ site.profile_picture }}">
+                    <img alt="{{ site.profile_picture_alt }}" src="{{ site.profile_picture }}">
                 </a>
                 <div class="other-intro pull-right">
                 <h2>
@@ -75,8 +75,7 @@
         </div>
     </div>
     {% include footer.html %}
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery.1.10.2.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/rrssb.min.js"></script>
     {% include mathjax.html %}
 

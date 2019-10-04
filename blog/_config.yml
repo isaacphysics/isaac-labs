@@ -42,6 +42,7 @@ facebook_id: IsaacPhysicsUK
 # favicon_location: "/images/favicon.ico"
 
 profile_picture: /images/isaac-logo.png
+profile_picture_alt: Isaac Labs homepage
 paginate: 5
 paginate_path: "/page/:num"
 tracking_id: UA-122616705-3 # GA Tracking ID
