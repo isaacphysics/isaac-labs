@@ -4,7 +4,7 @@
 # In a production environment use:
 #      docker-compose up -d
 
-version=$(cat docker-compose.yml | grep -oP '(?<=jekyll/jekyll:)[0-9.]+$')
+version=$(cat docker-compose.yml | grep -oP '(?<=jekyll/jekyll:)[a-z0-9.]+$')
 
 if (uname | grep -q 'MINGW'); then
     # Using Docker for Windows:
