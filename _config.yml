@@ -67,8 +67,6 @@ timezone: Europe/London
 
 markdown: kramdown
 
-source: blog
-
 plugins:
     - jekyll-paginate
 

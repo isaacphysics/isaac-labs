@@ -1,6 +1,6 @@
 # isaac-labs
 
-The technical blog for [Isaac Physics](https://isaacphysics.org). Runs Jekyll in a Docker container.
+The technical blog for [Isaac Physics](https://isaacphysics.org). Runs Jekyll on GitHub pages.
 
 ### Development Setup Instructions
 
@@ -16,4 +16,4 @@ To add a new post to the blog, create a new file in the `_posts` directory with 
 
 ### Production Use
 
-When running in production, do not use `./run.sh`. Instead just use `docker-compose up -d`. The `docker-compose.yml` file contains all the correct configuration for this use.
+Pushing to this repository updates the live site.
