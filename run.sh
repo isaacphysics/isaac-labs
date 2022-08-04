@@ -1,10 +1,9 @@
 #!/bin/bash
 
-# This script is intended for development only!
-# In a production environment use:
-#      docker-compose up -d
+# This script is intended for development.
+# The live site is built and hosted on GitHub pages.
 
-version=$(cat docker-compose.yml | grep -oP '(?<=jekyll/jekyll:)[a-z0-9.]+$')
+jekyll_version=3.8.6
 
 if (uname | grep -q 'MINGW'); then
     # Using Docker for Windows:
@@ -17,4 +16,5 @@ else
     docker=docker
 fi
 
-$docker run --rm -it --volume=$volume:/srv/jekyll -p 4000:4000 jekyll/jekyll:$version jekyll serve --force-polling
+$docker run --platform linux/amd64 --rm -it --volume=$volume:/srv/jekyll -p 4000:4000 jekyll/jekyll:$jekyll_version\
+ jekyll serve --force-polling
