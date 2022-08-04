@@ -8,11 +8,11 @@ jekyll_version=3.8.6
 if (uname | grep -q 'MINGW'); then
     # Using Docker for Windows:
     # Volume path needs extra initial slash!
-    volume="/$(pwd)/blog"
+    volume="/$(pwd)"
     docker="winpty docker"
 else
     # Using Linux:
-    volume="$(pwd)/blog"
+    volume="$(pwd)"
     docker=docker
 fi
 
