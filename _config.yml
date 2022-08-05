@@ -1,7 +1,8 @@
 # User Settings | Edit there as per required
 
 title: Isaac Labs
-baseurl: "/isaac-labs"
+# The following was required when hosting at isaacphysics.github.io/isaac-labs
+# baseurl: "/isaac-labs"
 
 email: contact@isaacphysics.org
 author: Isaac Physics
