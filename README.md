@@ -16,4 +16,4 @@ To add a new post to the blog, create a new file in the `_posts` directory with 
 
 ### Production Use
 
-Pushing to this repository updates the live site.
+Pushing to `master` on this repository updates the live site immediately(-ish)!
