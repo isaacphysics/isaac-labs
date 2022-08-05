@@ -1,6 +1,6 @@
 # isaac-labs
 
-The technical blog for [Isaac Physics](https://isaacphysics.org). Runs Jekyll on GitHub pages.
+The technical blog for [Isaac Physics](https://isaacphysics.org). This is a static site generated using Jekyll and hosted by GitHub pages at [labs.isaacphysics.org](https://labs.isaacphysics.org).
 
 ### Development Setup Instructions
 
@@ -16,4 +16,4 @@ To add a new post to the blog, create a new file in the `_posts` directory with 
 
 ### Production Use
 
-Pushing to `master` on this repository updates the live site immediately(-ish)!
+Pushing to `master` on this repository updates the live site at [labs.isaacphysics.org](https://labs.isaacphysics.org) immediately(-ish)!
