@@ -5,7 +5,7 @@ profile_picture: https://isaacphysics.org/api/any/api/images/content/general_pag
 about_stub: Andrea is a computer scientist on the Isaac Physics project, interested in human-computer interaction, education, and art.
 author_site: https://isaacphysics.org/about
 ---
-Our [previous formulae editor]({% post_url 2016-04-20-marking-equations %}) took a novel approach to symbolic entry on the web, but it was sometimes a bit hard to use. In the previous version, users could position symbols on the canvas freely. This typically worked well, but in several cases this led to ambiguity. Free-form formulae construction is nice, but being able to do so with certainty is much nicer, so we took a step back and realised that we were giving users too much freedom!
+Our [previous formulae editor]({{ '/marking-equations.html' | relative_url }}) took a novel approach to symbolic entry on the web, but it was sometimes a bit hard to use. In the previous version, users could position symbols on the canvas freely. This typically worked well, but in several cases this led to ambiguity. Free-form formulae construction is nice, but being able to do so with certainty is much nicer, so we took a step back and realised that we were giving users too much freedom!
 
 There are only so many ways you can relate mathematical symbols to each other, and these relations are well known -- think about exponents, subscripts, and so on. So in our most recent version we have added constraints to make placement explicit. We use blue circles around symbols, called "docking points", and they are the only places where you can drop other symbols:
 

@@ -8,7 +8,7 @@ about_stub: James is a physicist turned computer scientist, working both on phys
 author_site: https://isaacphysics.org/about
 ---
 
-Just [like we did last year](/christmas-streak-freezes), we're freezing daily streaks for Christmas. 
+Just [like we did last year]({{ '/christmas-streak-freezes' | relative_url }}), we're freezing daily streaks for Christmas. 
 
 **As a Christmas present from us, we'll freeze the streaks of everyone who has a current streak this week for the 24th-26th December inclusive**.
 

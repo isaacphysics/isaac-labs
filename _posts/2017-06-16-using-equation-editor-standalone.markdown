@@ -21,4 +21,4 @@ We provide maths output in three formats: LaTeX, which is how maths is rendered 
 
  This covers most of the ways you can use the result of the equation editor; if you know of another widely-used output type we don't support and would be useful to you or spot any mistakes in output - let us know!
 
- (Also, if you're wondering about the URL for the editor page, the internal name for the very first version of the equation editor was "Equality" and the URL has stuck with us since. If you want to know more, check out [Marking Maths, Part 1](/marking-equations.html) and [Entering Maths](/entering-maths.html)).
+ (Also, if you're wondering about the URL for the editor page, the internal name for the very first version of the equation editor was "Equality" and the URL has stuck with us since. If you want to know more, check out [Marking Maths, Part 1]({{ '/marking-equations.html' | relative_url }}) and [Entering Maths]({{ '/entering-maths.html' | relative_url }})).
