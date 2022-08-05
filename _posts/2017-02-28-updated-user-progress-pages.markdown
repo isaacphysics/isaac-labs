@@ -10,7 +10,7 @@ As an online platform we have quite a lot of information about the way our stude
 Our old progress pages didn't give too much information beyond how many question parts were correct, which topics of the problem-solving questions had been attempted, and a timeline of attempts over time:
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-	<img src="/images/progress-page/progress-page-sample-old.png" alt="A screenshot of the old 'My Progress' page.">
+	<img src="{{ '/images/progress-page/progress-page-sample-old.png' | relative_url }}" alt="A screenshot of the old 'My Progress' page.">
 	<figcaption>As you can see from this sample profile, we didn't give you much information before.</figcaption>
 </figure>
 
@@ -21,8 +21,8 @@ For the sake of argument, our question pages (or hexagons on boards) we call 'qu
 The profile page also contained a chart showing how active the student had been, in terms of attempts per month. This is easy to fake, because you can just get a question wrong time and time again; but combined with an idea of how many questions the student has answered it's more useful. However the chart itself was terrible; the time axis was badly scaled and irregular, and the months where no attempts had been made weren't shown at all, producing a misleading plot:
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-	<img src="/images/progress-page/progress-page-chart-old.png" alt="A screenshot of the old 'My Progress' page." style="float: left; width: 50%;">
-	<img src="/images/progress-page/progress-page-chart-new.png" alt="A screenshot of the old 'My Progress' page." style="float: left; width: 50%;">
+	<img src="{{ '/images/progress-page/progress-page-chart-old.png' | relative_url }}" alt="A screenshot of the old 'My Progress' page." style="float: left; width: 50%;">
+	<img src="{{ '/images/progress-page/progress-page-chart-new.png' | relative_url }}" alt="A screenshot of the old 'My Progress' page." style="float: left; width: 50%;">
 	<figcaption style="clear: both;">Compare old (left) to new (right); they show the same data, but in quite different ways!</figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ We also know the types of questions students have tried: were they all multiple 
 
 All this leads to a much improved 'My Progress' page:
 <figure style="text-align:center;margin:15px auto 25px auto;">
-	<img src="/images/progress-page/progress-page-sample-new.png" alt="A screenshot of the old 'My Progress' page.">
+	<img src="{{ '/images/progress-page/progress-page-sample-new.png' | relative_url }}" alt="A screenshot of the old 'My Progress' page.">
 	<figcaption>The same sample profile as before, but now showing much more detail.</figcaption>
 </figure>
 

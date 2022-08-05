@@ -14,14 +14,14 @@ Our current method of asking graph sketching questions is to either ask users to
 Our first attempt at a graph sketching tool allows users to draw functions freehand with a mouse, trackpad or even touchscreen! Once drawn, the curve can be customised by dragging any of its maxima and minima, along with stretching and translating it. We currently can't mark the answers provided, but more on that later!
 
 <figure style="text-align:center;margin:15px auto 25px auto;width:90%;">
-    <img src="/images/graph-sketcher/sketcher.PNG" alt="A graph sketcher example showing a blue curve and and orange straight line.">
+    <img src="{{ '/images/graph-sketcher/sketcher.PNG' | relative_url }}" alt="A graph sketcher example showing a blue curve and and orange straight line.">
     <figcaption>Users can draw multiple lines per solution, in different colours and specify straight or curved lines, allowing for more complex questions to be posed.</figcaption>
 </figure>
 
 The axes aren't measured, allowing users to focus on the shape of the curve and think more about the general scale than about going through exact points. Labels can be dragged and anchored to special points (turning/crossing points), hopefully of use for answers to certain questions.
 
 <figure style="text-align:center;margin:15px auto 25px auto;width:90%;">
-    <img src="/images/graph-sketcher/graph_sketcher.gif" alt="A gif showing how to simply draw and edit a curve">
+    <img src="{{ '/images/graph-sketcher/graph_sketcher.gif' | relative_url }}" alt="A gif showing how to simply draw and edit a curve">
     <figcaption>Once you've sketched a curve you can simply click and drag certain points to edit it.</figcaption>
 </figure>
 

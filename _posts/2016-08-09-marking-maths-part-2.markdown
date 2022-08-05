@@ -14,7 +14,7 @@ Checking semantic equality is hard; in fact it’s known to be impossible in gen
 We use <a href="http://www.sympy.org/en/index.html" target="_blank">SymPy</a> to do the checking; it’s an open-source computer algebra library for Python with excellent support for precisely the equality checking we want. There are quite a few hurdles we had to cross to integrate SymPy into Isaac: it’s Python but Isaac is Java; it can be quite slow sometimes; it checks Python expressions, not LaTeX or a syntax tree directly; and worst of all it’s far too good at what it does (see the image below). It’s amazing at semantic equality; but sometimes we just want syntactic equality!
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-	<img src="/images/symbolic_checker.png" style="width:90%;" alt="A question on Isaac asking for 'F/m' as an answer, but saying that a complicated expression involving G's, sqrt(3)'s and (sqrt(F/m))^2 is correct!">
+	<img src="{{ '/images/symbolic_checker.png' | relative_url }}" style="width:90%;" alt="A question on Isaac asking for 'F/m' as an answer, but saying that a complicated expression involving G's, sqrt(3)'s and (sqrt(F/m))^2 is correct!">
 	<figcaption>SymPy recognises that the expression simplifies down to $\frac{F}{m}$: but that's not what we wanted here!</figcaption>
 </figure>
 

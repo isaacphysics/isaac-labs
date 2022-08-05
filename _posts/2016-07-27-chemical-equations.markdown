@@ -7,7 +7,7 @@ author_site: https://isaacphysics.org/about
 ---
 Whilst adding the Thermodynamics questions to the site we ran into an issue: how do we mark non-mathematical equations? There are questions in the <a href="https://isaacphysics.org/book" target="_blank">Mastering Physics book</a> which require nuclear equations as answers, too. We currently have 3 main types of question on Isaac Physics, alongside one experimental one. Quick questions are simple show/hide boxes, designed to make students think but allowing us to tell them the answer. Multiple choice questions and numeric questions are pretty straightforward too (except for significant figures).
 
-We have some new questions that can have answers provided in symbolic form; these are currently checked using <a href="http://www.sympy.org/en/index.html" target="_blank">SymPy</a>, a specialised Python library designed for symbolic computation (see <a href="/marking-maths-part-2.html">our post here</a> for more details). However SymPy isn’t designed to support chemistry, or the nuclear physics we need. We want to be able to give a student feedback when they type an equation with a mistake in it:
+We have some new questions that can have answers provided in symbolic form; these are currently checked using <a href="http://www.sympy.org/en/index.html" target="_blank">SymPy</a>, a specialised Python library designed for symbolic computation (see <a href="{{ '/marking-maths-part-2.html' | relative_url }}">our post here</a> for more details). However SymPy isn’t designed to support chemistry, or the nuclear physics we need. We want to be able to give a student feedback when they type an equation with a mistake in it:
 
 <table>
   <tr>
@@ -22,7 +22,7 @@ We have some new questions that can have answers provided in symbolic form; thes
 
 Wouldn’t it be good if the computer could recognise that the equation the student has entered is the right one, but just isn’t balanced correctly? Without having to list all possible wrong answers first!
 
-<img src="/images/simple_syntax_tree.svg" style="width:33%;float:right;margin-left:15px;">
+<img src="{{ '/images/simple_syntax_tree.svg' | relative_url }}" style="width:33%;float:right;margin-left:15px;">
 
 So we built a parser, a program that takes a chemical equation in text form and gives us back a more useful representation of it, using JFlex and CUP in Java. We can then turn the text `NH3` into a tree-like structure on our server (see the figure, which looks vaguely like a Java class diagram). Now we know, for instance, that there are 3 Hydrogen atoms in $\ce{NH3}$ - and we can compare that to what we expect. We could also check if the “molecule” in each “term” of the above equation matched, but that the numbers did not.
 
@@ -32,7 +32,7 @@ It can’t balance equations all on its own (there are plenty of sites that will
 
 <br>
 
-This complicated looking redox reaction demonstrates all of the syntax required to try it out below (there’s even a representation of the tree this equation gets turned into <a href="/images/complex_syntax_tree.svg" target="_blank">here</a>)!
+This complicated looking redox reaction demonstrates all of the syntax required to try it out below (there’s even a representation of the tree this equation gets turned into <a href="{{ '/images/complex_syntax_tree.svg' | relative_url }}" target="_blank">here</a>)!
 
 So
 

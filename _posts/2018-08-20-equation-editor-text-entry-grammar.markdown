@@ -7,12 +7,12 @@ profile_picture: https://isaacphysics.org/api/any/api/images/content/general_pag
 about_stub: Andrea is a computer scientist on the Isaac Physics project, interested in human-computer interaction, education, and art.
 author_site: https://isaacphysics.org/about
 ---
-<a href="/equation-editor-text-entry.html">Earlier this year</a> we launched a new beta feature: the ability to type answers to our symbolic questions. The very first version of this feature worked well enough, but we were unsatisfied with the way it integrated with the site -- i.e., the text entry box and the equation editor box did not talk to each other. That meant that a user could type literally anything in the box, and submit it for checking, which opened the way for all sorts of errors that are difficult to detect and redress automatically[^1].
+<a href="{{ '/equation-editor-text-entry.html' | relative_url }}">Earlier this year</a> we launched a new beta feature: the ability to type answers to our symbolic questions. The very first version of this feature worked well enough, but we were unsatisfied with the way it integrated with the site -- i.e., the text entry box and the equation editor box did not talk to each other. That meant that a user could type literally anything in the box, and submit it for checking, which opened the way for all sorts of errors that are difficult to detect and redress automatically[^1].
 
 To fix that, and to provide a better experience, we developed a full text-based maths parser that interprets the users' input and turns it into the same language that the graphical editor speaks. In this way, we can ask the graphical editor to produce a version of the answer that is indistinguishable from the same answer entered via the graphical editor itself, and also safer for us to handle, because we can strictly control what is sent back for checking, eliminating the problem of users typing arbitrary and potentially dangerous code. Not only that, but we can also provide immediate feedback using the render box to show what mathematical expression corresponds to the typed expression, so students always know that they are typing what they mean.
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-    <img src="/images/eqn-text-entry-grammar/text-entry.gif" alt="A symbolic question, showing the new text-entry box underneath.">
+    <img src="{{ '/images/eqn-text-entry-grammar/text-entry.gif' | relative_url }}" alt="A symbolic question, showing the new text-entry box underneath.">
 </figure>
 
 ---

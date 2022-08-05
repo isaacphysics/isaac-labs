@@ -10,21 +10,21 @@ Our [previous formulae editor]({% post_url 2016-04-20-marking-equations %}) took
 There are only so many ways you can relate mathematical symbols to each other, and these relations are well known -- think about exponents, subscripts, and so on. So in our most recent version we have added constraints to make placement explicit. We use blue circles around symbols, called "docking points", and they are the only places where you can drop other symbols:
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-	<img src="/images/entering-maths-docking-points.png" alt="Classic E=mc^2 formula in the new editor, showing docking points.">
+	<img src="{{ '/images/entering-maths-docking-points.png' | relative_url }}" alt="Classic E=mc^2 formula in the new editor, showing docking points.">
 	<figcaption>Blue circles are points where you can "dock" other symbols to.</figcaption>
 </figure>
 
 Sometimes an image is worth a thousand words, so here are several in rapid succession:
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-	<img src="/images/entering-maths-formula.gif" alt="Euler's identity.">
+	<img src="{{ '/images/entering-maths-formula.gif' | relative_url }}" alt="Euler's identity.">
 	<figcaption>Euler's identity being built.</figcaption>
 </figure>
 
 Docking points offer an unambiguous way of placing symbols. However, no design is perfect, and we are currently dealing with a number of glitches, for example complex formulae where docking points overlap and become difficult to reach. For example:
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-	<img src="/images/entering-maths-complex-formula.png" alt="A complex formula with lots of difficult to reach docking points.">
+	<img src="{{ '/images/entering-maths-complex-formula.png' | relative_url }}" alt="A complex formula with lots of difficult to reach docking points.">
 	<figcaption>Not that anyone will ever want to create anything like that, right?</figcaption>
 </figure>
 

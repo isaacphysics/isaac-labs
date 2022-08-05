@@ -12,14 +12,14 @@ But we don't need an accurate location to have fun visualising it - just a rough
 Enter Google's [WebGL Globe](https://www.chromeexperiments.com/globe), a Chrome Experiment for visualising geographic data in a novel way; the taller the spike on the map, the more "stuff" has happened at that location. What would happen if we made a heat-map like plot of where people answered questions on Isaac from?
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-	<img src="/images/visualising-data-globe/question-attempts-globe.png" alt="A screenshot of the WebGL globe, showing question attempts. There's a huge spike in London and lots of activity in the UK but less elsewhere.">
+	<img src="{{ '/images/visualising-data-globe/question-attempts-globe.png' | relative_url }}" alt="A screenshot of the WebGL globe, showing question attempts. There's a huge spike in London and lots of activity in the UK but less elsewhere.">
 	<figcaption>This is what happens! The enormous spike corresponds to central London, which is probably because many UK ISPs are registered there, and the grid-like pattern is simply an artfact of the location resolution not in the data itself per se.</figcaption>
 </figure>
 
 We can also look at the locations of schools in the UK and Ireland which have students and teachers registered at. We have postcode and Eircode information for these schools, and can show an indication of how many users are active at each. Of course, many students haven't told us their school, and so the data is necessarily incomplete. But as a quick way of visualising where Isaac is being used, it's quite cool!
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-	<img src="/images/visualising-data-globe/schools-uk-ireland-globe.png" alt="A screenshot of the WebGL globe, showing how many users at schools across the Britsh Isles.">
+	<img src="{{ '/images/visualising-data-globe/schools-uk-ireland-globe.png' | relative_url }}" alt="A screenshot of the WebGL globe, showing how many users at schools across the Britsh Isles.">
 	<figcaption>The peaks give an indication of the number of students and teachers using Isaac at schools we know about. Note that the scale is radically different on this plot!</figcaption>
 </figure>
 

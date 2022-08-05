@@ -55,7 +55,7 @@
     {% if site.twitter_image %}
         <meta name="twitter:image" content="{{ site.twitter_image }}">
     {% else %}
-        <meta name="twitter:image" content="{{ site.profile_picture }}">
+        <meta name="twitter:image" content="{{ site.profile_picture | relative_url }}">
     {% endif %}
 </head>
 <body>
@@ -63,7 +63,7 @@
         <div class="main container" style="padding:0">
             <nav class="navbar" style="padding-top:0">
                 <a href="{{ site.baseurl }}/">
-                    <img alt="{{ site.profile_picture_alt }}" src="{{ site.profile_picture }}">
+                    <img alt="{{ site.profile_picture_alt }}" src="{{ site.profile_picture | relative_url }}">
                 </a>
                 <div class="other-intro pull-right">
                 <h2>
@@ -76,7 +76,7 @@
     </div>
     {% include footer.html %}
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/rrssb.min.js"></script>
+    <script src={{ "js/rrssb.min.js" | relative_url }}></script>
     {% include mathjax.html %}
 
     {% if page.title %}

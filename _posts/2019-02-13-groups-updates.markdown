@@ -9,7 +9,7 @@ author_site: https://isaacphysics.org/about
 Today we've updated the way groups work on Isaac, to help you better understand which groups you are in and give you a little more control over assignments. We have added a list of all the groups you're in to your <a href="https://isaacphysics.org/account#teacherconnections" target="_blank">Teacher Connections</a> tab which now shows the names of the groups, the teachers associated with each group and allows you to temporarily leave a group.
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-    <img src="/images/groups-updates/inactive-in-group.png" alt="The new groups list on a student's Teacher Connections page.">
+    <img src="{{ '/images/groups-updates/inactive-in-group.png' | relative_url }}" alt="The new groups list on a student's Teacher Connections page.">
     <figcaption>You'll now be able to see the groups you are in and the teachers associated with each group. You'll also be able to temporarily leave the group, which will mark you as Inactive, or rejoin a group you left.</figcaption>
 </figure>
 
@@ -24,7 +24,7 @@ As we've made clear on the <a href="https://isaacphysics.org/groups" target="_bl
 You may see students groups listed as "inactive in group" now; as descibed above this means they won't receive new assignments set to that group. 
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-    <img src="/images/groups-updates/inactive-in-group-teacher-view.png" alt="The new groups list on a student's Teacher Connections page.">
+    <img src="{{ '/images/groups-updates/inactive-in-group-teacher-view.png' | relative_url }}" alt="The new groups list on a student's Teacher Connections page.">
     <figcaption>Students can now temporarily leave groups, marking them as inactive, and hiding new assignments from them.</figcaption>
 </figure>
 

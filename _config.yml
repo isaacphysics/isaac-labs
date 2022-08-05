@@ -1,8 +1,7 @@
 # User Settings | Edit there as per required
 
 title: Isaac Labs
-url: https://labs.isaacphysics.org
-baseurl: ""
+baseurl: "/isaac-labs"
 
 email: contact@isaacphysics.org
 author: Isaac Physics

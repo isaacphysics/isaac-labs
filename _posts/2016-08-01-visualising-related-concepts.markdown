@@ -7,7 +7,7 @@ author_site: https://isaacphysics.org/about
 ---
 Isaac has about 75 concept pages that go alongside the questions and cover key material in physics and maths. They aren’t designed to replace a textbook, more as a reminder of important points and key areas. One of the neat, but under-used, features of Isaac is the “Related Content” boxes at the bottom of questions and concept pages. They list questions that use the same skills, or concepts that are relevant to the current page.
 
-<a href="/images/isaacMechanics.svg" target="_blank"><img src="/images/isaacMechanics.png" style="width:50%;float:left;margin-right:20px;"></a>
+<a href="{{ '/images/isaacMechanics.svg' | relative_url }}" target="_blank"><img src="{{ '/images/isaacMechanics.png' | relative_url }}" style="width:50%;float:left;margin-right:20px;"></a>
 Visually showing the links between concepts could be useful when revising or when answering questions. For those who like maths terms, all the related question/concept information on Isaac forms a big directed graph.
 
 Unfortunately, there are far too many questions on Isaac to make this usable on the whole site - just drawing the graph for related questions in our Mechanics section gives the spidery mess in the image above!

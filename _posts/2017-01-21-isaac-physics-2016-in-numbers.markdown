@@ -43,20 +43,20 @@ Isaac went from strength to strength in 2016; we had nearly 30,000 users sign up
 The new academic year starting in September led to a lot of questions being answered, though it fell off towards Christmas:
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-	<img src="/images/twenty-sixteen/question-attempts-2016.png" alt="A chart of question attempts per month!">
+	<img src="{{ '/images/twenty-sixteen/question-attempts-2016.png' | relative_url }}" alt="A chart of question attempts per month!">
 </figure>
 
 We can also look at how many of our students were active in answering questions through the year:
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-	<img src="/images/twenty-sixteen/active-users-2016.png" alt="A chart of active users per month!">
+	<img src="{{ '/images/twenty-sixteen/active-users-2016.png' | relative_url }}" alt="A chart of active users per month!">
 	<figcaption>The number of question attempts drops before December, but the number of users making those attempts doesn't. Does this show students getting better at answering our questions? Are they mastering significant figures? Or are they just getting less productive as Christmas draws near?</figcaption>
 </figure>
 
 One last chart, showing lots of homework set by our teachers; hard at work even through their summer holidays:
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-	<img src="/images/twenty-sixteen/assignments-set-2016.png" alt="A chart of assignments set per month. More than 200 assignments were set in August; teachers don't get holidays!">
+	<img src="{{ '/images/twenty-sixteen/assignments-set-2016.png' | relative_url }}" alt="A chart of assignments set per month. More than 200 assignments were set in August; teachers don't get holidays!">
 </figure>
 
 Let's see what 2017 brings!

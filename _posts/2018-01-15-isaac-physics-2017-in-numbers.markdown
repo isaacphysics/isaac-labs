@@ -66,25 +66,25 @@ We had nearly 60,000 more users sign up, and saw more than 3.4 million question 
 The question attempt graph looks <a href='/isaac-physics-2016-in-numbers' target='_blank'>similar to last year</a>, only with about twice the activity:
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-    <img src="/images/twenty-sixteen/question-attempts-2017.png" alt="A chart of question attempts per month! It peaks in September and stays high until it drops in December.">
+    <img src="{{ '/images/twenty-sixteen/question-attempts-2017.png' | relative_url }}" alt="A chart of question attempts per month! It peaks in September and stays high until it drops in December.">
 </figure>
 
 We also looked at how many of our students and teachers were active in answering questions through the year:
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-    <img src="/images/twenty-sixteen/active-users-2017.png" alt="A chart of active users per month! It peaks in September and stays high until it drops in December.">
+    <img src="{{ '/images/twenty-sixteen/active-users-2017.png' | relative_url }}" alt="A chart of active users per month! It peaks in September and stays high until it drops in December.">
 </figure>
 
 We also saw even more homework set by our teachers this year:
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-    <img src="/images/twenty-sixteen/assignments-set-2017.png" alt="A chart of assignments set per month. There's a clear and unexpected peak in March too; surprise homework month perhaps?">
+    <img src="{{ '/images/twenty-sixteen/assignments-set-2017.png' | relative_url }}" alt="A chart of assignments set per month. There's a clear and unexpected peak in March too; surprise homework month perhaps?">
 </figure>
 
 Looking at the breakdown by subject area, you can really see the GCSE material take off:
 
 <figure style="text-align:center;margin:15px auto 25px auto;">
-    <img src="/images/twenty-sixteen/attempts-by-subject-2017.png" alt="A chart of showing the percentage of question attempts in physics, maths, and the books. The GCSE and A-Level books comprise 40% each by the end of the year.">
+    <img src="{{ '/images/twenty-sixteen/attempts-by-subject-2017.png' | relative_url }}" alt="A chart of showing the percentage of question attempts in physics, maths, and the books. The GCSE and A-Level books comprise 40% each by the end of the year.">
     <figcaption>What this graph can't show is the sixfold increase in actual <i>number</i> of attempts after the end of August!</figcaption>
 </figure>
 

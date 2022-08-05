@@ -10,7 +10,7 @@ layout: default
             {% unless post.draft %}
             <div class="post-preview">
                 <span class="post-title alignable pull-left">
-                    <a class="post-link underline" href="{{ post.url | prepend: site.baseurl }}">
+                    <a class="post-link underline" href="{{ post.url | relative_url }}">
                         {{ post.title }}
                     </a>
                 </span>

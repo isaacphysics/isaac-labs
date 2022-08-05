@@ -14,7 +14,7 @@ This would allow those managers to see student progress on all assignments set t
 Why has this been so tricky to implement? Our data sharing model puts students in control of their data; they have to opt-in to sharing data with teachers explicitly, and can revoke this access at any time. It's this one-to-one student to teacher link, but many-to-one teacher to group link, that has made things complicated; but we think we've now got a system that works.
 
 <figure style="text-align:center;margin:15px auto 25px auto;width:90%;">
-    <img src="/images/sharing-groups/auth-dialogue-box.png" alt="The new sharing confirmation dialogue box, listing the names and emails of all teachers who manage the group.">
+    <img src="{{ '/images/sharing-groups/auth-dialogue-box.png' | relative_url }}" alt="The new sharing confirmation dialogue box, listing the names and emails of all teachers who manage the group.">
     <figcaption>We've updated the confirmation dialogue when you use a group code to list all teachers who can access that group's data. Teachers you already share some data with are shown in green.</figcaption>
 </figure>
 
@@ -22,7 +22,7 @@ When students use a group code, they'll now see a more detailed dialogue like th
 
 How do you use this new feature? Teachers will eventually be given a new option alongside the "Invite Users" option for groups they have created: "Edit Group Managers":
 <figure style="text-align:center;margin:15px auto 25px auto;width:90%;">
-    <img src="/images/sharing-groups/add-managers-dialogue-box.png" alt="The new edit group manager interface, listing the names and emails of all teachers who manage the group.">
+    <img src="{{ '/images/sharing-groups/add-managers-dialogue-box.png' | relative_url }}" alt="The new edit group manager interface, listing the names and emails of all teachers who manage the group.">
     <figcaption>Group owners will be able to add colleagues with teacher accounts to their groups.</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ The additional managers may be colleagues who teach the same class, heads of dep
 
 One issue we expect to see when adding group managers _after_ some students have joined the group is that these group managers will not be able to see some student progress.
 <figure style="text-align:center;margin:15px auto 25px auto;width:90%;">
-    <img src="/images/sharing-groups/group-student-list.png" alt="A list of students ion the group; only one of them has approved access to this additional manager.">
+    <img src="{{ '/images/sharing-groups/group-student-list.png' | relative_url }}" alt="A list of students ion the group; only one of them has approved access to this additional manager.">
     <figcaption>As an additional manager, if you are added after some students have joined the group you won't have access to their data. Things may look quite like this!</figcaption>
 </figure>
 

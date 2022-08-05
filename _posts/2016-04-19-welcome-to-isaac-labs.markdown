@@ -12,4 +12,4 @@ It takes a lot of work to deliver innovative new features on Isaac Physics, and 
 
 Bear in mind that the technology we share here is beta-quality at best - some parts will be missing, there will be bugs, and you should explore at your own risk!
 
-So, let's get started. Head over to <a href="/marking-equations.html">our first post about the difficulties of marking equations online</a>.
+So, let's get started. Head over to <a href="{{ '/marking-equations.html' | relative_url }}">our first post about the difficulties of marking equations online</a>.
