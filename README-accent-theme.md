@@ -44,8 +44,6 @@ year-month-day-name-of-the-file.markdown
 
 * For Syntax highlighting, accent uses *Rouge* which is the default highlighter in Jekyll 3 and above. If you don't know how to highlight a code block, [refer](http://jekyllrb.com/docs/templates/).
 
-* To set up Google Analytics tracking id, just set the `tracking_id` variable in `_config.yml`.
-
 ---
 
 ### License
