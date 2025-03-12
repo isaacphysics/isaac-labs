@@ -2,8 +2,8 @@
     {% include suggestion.html %}
     {% if page.url == "/about" or paginator.total_pages == 1 or page.url == "/404" %}
         <div class="container" style="text-align: center; margin-bottom: 20px">
-            <a target="_blank" class="button" href="https://twitter.com/{{ site.twitter_username }}">
-                Follow us on Twitter
+            <a target="_blank" class="button" href="https://bsky.app/profile/{{ site.bluesky_username }}">
+                Follow us on Bluesky
             </a>
         </div>
     {% endif %}
@@ -15,8 +15,8 @@
             </p>
         </div>
         <div class="alignable pull-right">
-            <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}" class="button">
-                @{{ site.twitter_username }}
+            <a target="_blank" href="https://bsky.app/profile/{{ site.bluesky_username }}" class="button">
+                @{{ site.bluesky_username }}
             </a>
             <a href="mailto:{{ site.email }}" class="button">
                 mail
